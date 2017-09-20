@@ -1,0 +1,19 @@
+{
+  "name": "soundsgood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3",
+    "spotify": "^0.3.0",
+    "spotify-playlist": "0.0.4"
+  }
+}

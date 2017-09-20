@@ -1,0 +1,22 @@
+{
+  "name": "soundsgood bower",
+  "authors": [
+    "langrand <ludo.langrand@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "socket.io-client": "^2.0.3",
+    "datatables.net": "^1.10.16"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>soundsgood</title>
+        <link rel="stylesheet" type="text/css" href="/web/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="/web/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <div class="row">
+                <div class="col-md-offset-5 col-md-2">
+                    <div class="form-group well-lg">
+                        <label for="sginput">Id spotify user :</label>
+                        <input id="sginputUser" type="text" class="form-control">
+                        <label for="sginputPlaylist">Id spotify playlist :</label>
+                        <input id="sginputPlaylist" type="text" class="form-control ">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-5 col-md-1">
+                    <button id="sgExample" type="button" class="btn btn-info">Exemple</button>
+                </div>
+                <div class="col-md-1">
+                    <button id="sgbtn" type="button" class="btn btn-success">Rechercher</button>
+                </div>
+            </div>
+
+
+
+        </div>
+        <script src="/web/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/web/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/web/js/soundsgood.js"></script>
+        <script>
+            var error = <%- JSON.stringify(error) %>;
+        if(error){
+                    alert('aucune playlist correspondante')
+    }
+    </script>
+    </body>
+</html>

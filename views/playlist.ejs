@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>playlist</title>
+        <link rel="stylesheet" type="text/css" href="/web/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="/web/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <table id="dtt" class="display" width="100%"></table>
+
+        </div>
+        <script src="/web/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/web/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/web/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+        <script src="/web/js/playlist.js"></script>
+        <script>
+            var data = <%- JSON.stringify(playlist) %>;
+            viewPlaylist(data);
+        </script>
+    </body>
+</html>
